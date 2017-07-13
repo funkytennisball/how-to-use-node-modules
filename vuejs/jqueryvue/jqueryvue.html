@@ -1,0 +1,21 @@
+<html>
+<body>
+    <div id="hello-world">
+        <h1>{{ text }}</h1>
+    </div>
+    <script
+      src="//cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.min.js">
+    </script>
+    <script>
+
+      new Vue({
+        el: "#hello-world",
+        data() {
+          return {
+            text: "Hello World!"
+          }
+        }
+      });
+    </script>
+</body>
+</html>
